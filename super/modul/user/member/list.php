@@ -28,9 +28,9 @@ ob_start();
                         <td><?php echo $row['email'] ?></td>
                         <td><?php echo $statusAkun ?></td>
                         <td>
-                            <a href="#" class="btn bg-red">Delete</a>
+                            <a href="?page=deleteSuperUser&id=<?php echo $row['id_super'] ?>" class="btn bg-red">Delete</a>
                             <a href="?page=editSuperUser&id=<?php echo $row['id_super'] ?>" class="btn bg-blue">Edit</a>
-                            <a href="#" class="btn bg-green">View</a>
+                            
                         </td>
                     </tr>
                 <?php 

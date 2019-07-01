@@ -67,6 +67,13 @@ switch($_GET['page']) {
         }
     break;
 
+    case 'deleteSuperUser' :
+        if($_GET['page']){
+            include './modul/user/member/delete.php';
+            $content = $deleteMember;
+        }
+    break;
+
     /**
      * Artikel
      */

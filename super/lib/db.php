@@ -1,8 +1,8 @@
 <?php
     $host = "localhost";
-    $user = "tecf2887_meduli";
-    $pass = "K971O0LV6YAX";
-    $dbname = "tecf2887_meduli";
+    $user = "root";
+    $pass = "develop93";
+    $dbname = "meduliapp";
 
     $link = new mysqli($host,$user,$pass,$dbname);
     

@@ -75,7 +75,7 @@ if (isset($_POST['logout']))
 						</li>
 						<li class="topbar-devider"></li>
 						<li>
-							<a class="btn btn-primary" href="http://milenialpeduli.com/super/" target="blank" style="color:#fff;">
+							<a class="btn btn-primary" href="http://localhost/meduli/super/" target="blank" style="color:#fff;">
 								Dashboard
 							</a>		
 
